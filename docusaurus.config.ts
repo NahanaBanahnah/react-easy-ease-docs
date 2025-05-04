@@ -60,6 +60,54 @@ const config: Config = {
 				},
 			],
 		},
+		footer: {
+			copyright: `Copyright © ${new Date().getFullYear()} Nate Mitchell, MIT License`,
+			links: [
+				{
+					title: 'Docs',
+					items: [
+						{
+							label: 'GitHub',
+							to: 'https://github.com/NahanaBanahnah/react-easy-ease-docs',
+						},
+						{
+							label: 'Docusaurus.io',
+							to: 'https://docusaurus.io/',
+						},
+					],
+				},
+				{
+					title: 'Package',
+					items: [
+						{
+							label: 'NPM',
+							href: 'https://www.npmjs.com/package/@nahana/react-easy-ease',
+						},
+						{
+							label: 'GitHub',
+							href: 'https://github.com/NahanaBanahnah/react-easy-ease',
+						},
+					],
+				},
+				{
+					title: 'Thanks ♥︎♥︎',
+					items: [
+						{
+							label: 'Robert Penner',
+							href: 'http://robertpenner.com/easing/',
+						},
+						{
+							label: 'Matthew Lein',
+							href: 'https://matthewlein.com/tools/ceaser',
+						},
+						{
+							label: 'Andrew Embury',
+							href: 'https://www.yellowlab.tv/',
+						},
+					],
+				},
+			],
+		},
 
 		prism: {
 			theme: prismThemes.github,
